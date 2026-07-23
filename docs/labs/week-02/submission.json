@@ -1,16 +1,16 @@
 {
   "week": "week-02",
-  "title": "Modern JavaScript Learning Dashboard",
-  "status": "draft",
-  "sourceOrigin": "course-starter",
-  "originalRepoUrl": "",
-  "originalCommit": "",
-  "pullRequestUrl": "",
-  "submissionTag": "",
-  "testStatus": "not-tested",
-  "notes": "นำ Vite build output ที่มี index.html เข้า publish/",
+  "title": "Developer Environment & GitHub Repository Setup",
+  "status": "submitted",
+  "sourceOrigin": "migrated-repository",
+  "originalRepoUrl": "https://github.com/ItsPitxh/engse203-lab02-67543210061-7",
+  "originalCommit": "333e092",
+  "pullRequestUrl": "https://github.com/ItsPitxh/engse203-student-labs-67543210061-7/compare/main...lab/week-02",
+  "submissionTag": "lab-02-submission-v1",
+  "testStatus": "pass",
+  "notes": "LAB 2 ใช้ evidence report ได้โดยไม่ต้องมี web application",
   "pageUrl": "https://ItsPitxh.github.io/engse203-student-labs-67543210061/labs/week-02/",
   "sourceUrl": "https://github.com/ItsPitxh/engse203-student-labs-67543210061/tree/lab/week-02/labs/week-02/source",
-  "hasPublish": false,
-  "sourceEntries": 0
+  "hasPublish": true,
+  "sourceEntries": 9
 }
