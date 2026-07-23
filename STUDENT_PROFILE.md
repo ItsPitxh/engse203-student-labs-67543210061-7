@@ -8,5 +8,5 @@
 | Section | SEC2 |
 | GitHub Username | ItsPitxh |
 | Repository | `engse203-student-labs-67543210061` |
-| Mode | `new-course` |
+| Mode | `migration` |
 | Pages Hub | https://ItsPitxh.github.io/engse203-student-labs-67543210061/ |
