@@ -1,0 +1,12 @@
+{
+  "week": "week-04",
+  "title": "React Campus Service Request",
+  "status": "draft",
+  "sourceOrigin": "course-starter",
+  "originalRepoUrl": "",
+  "originalCommit": "",
+  "pullRequestUrl": "",
+  "submissionTag": "",
+  "testStatus": "not-tested",
+  "notes": "React/Vite build output ต้องอยู่ใน publish/ ก่อนสร้าง Pages Hub"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "engse203-student-labs-template",
+  "version": "2.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "setup": "node scripts/setup-student-repo.mjs",
+    "add:lab": "node scripts/add-lab.mjs",
+    "import:source": "node scripts/import-source.mjs",
+    "import:publish": "node scripts/import-publish.mjs",
+    "build:pages": "node scripts/build-pages.mjs",
+    "verify:setup": "node scripts/verify-repository.mjs --setup",
+    "verify": "node scripts/verify-repository.mjs",
+    "verify:lab": "node scripts/verify-repository.mjs --week"
+  }
+}
