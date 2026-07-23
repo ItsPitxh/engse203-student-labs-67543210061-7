@@ -32,20 +32,20 @@
     "sourceEntries": 9
   },
   {
-    "week": "week-03",
-    "title": "Responsive Web UI & Form Interaction",
-    "status": "draft",
-    "sourceOrigin": "course-starter",
-    "originalRepoUrl": "",
-    "originalCommit": "",
+    "week": "week-02",
+    "title": "Developer Environment & GitHub Repository Setup",
+    "status": "ready",
+    "sourceOrigin": "migrated-repository",
+    "originalRepoUrl": "https://github.com/ItsPitxh/engse203-lab03-67543210061-7",
+    "originalCommit": "333e092",
     "pullRequestUrl": "",
-    "submissionTag": "",
-    "testStatus": "not-tested",
-    "notes": "Static site ต้องมี index.html ที่ publish root",
+    "submissionTag": "lab-03-submission-v1",
+    "testStatus": "pass",
+    "notes": "LAB 3 สามารถทำได้ตาม manual guide 6 ข้อ",
     "pageUrl": "https://ItsPitxh.github.io/engse203-student-labs-67543210061/labs/week-03/",
     "sourceUrl": "https://github.com/ItsPitxh/engse203-student-labs-67543210061/tree/lab/week-03/labs/week-03/source",
-    "hasPublish": false,
-    "sourceEntries": 0
+    "hasPublish": true,
+    "sourceEntries": 3
   },
   {
     "week": "week-04",

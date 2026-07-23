@@ -1,12 +1,12 @@
 {
   "week": "week-03",
   "title": "Responsive Web UI & Form Interaction",
-  "status": "draft",
-  "sourceOrigin": "course-starter",
-  "originalRepoUrl": "",
-  "originalCommit": "",
+  "status": "ready",
+  "sourceOrigin": "migrated-repository",
+  "originalRepoUrl": "https://github.com/ItsPitxh/engse203-lab03-67543210061-7",
+  "originalCommit": "333e092",
   "pullRequestUrl": "",
-  "submissionTag": "",
-  "testStatus": "not-tested",
-  "notes": "Static site ต้องมี index.html ที่ publish root"
+  "submissionTag": "lab-03-submission-v1",
+  "testStatus": "pass",
+  "notes": "LAB 3 สามารถทำได้ตาม manual guide 6 ข้อ"
 }
