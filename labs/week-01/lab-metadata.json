@@ -1,11 +1,11 @@
 {
   "week": "week-01",
   "title": "Developer Environment & GitHub Repository Setup",
-  "status": "ready",
+  "status": "submitted",
   "sourceOrigin": "migrated-repository",
   "originalRepoUrl": "https://github.com/ItsPitxh/engse203-lab01-67543210061-7",
   "originalCommit": "333e092",
-  "pullRequestUrl": "",
+  "pullRequestUrl": "https://github.com/ItsPitxh/engse203-student-labs-67543210061-7/compare/main...lab/week-01",
   "submissionTag": "lab-01-submission-v1",
   "testStatus": "pass",
   "notes": "LAB 1 ใช้ evidence report ได้โดยไม่ต้องมี web application"
