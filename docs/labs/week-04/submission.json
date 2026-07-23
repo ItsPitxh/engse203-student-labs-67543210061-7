@@ -1,0 +1,16 @@
+{
+  "week": "week-04",
+  "title": "React Campus Service Request",
+  "status": "draft",
+  "sourceOrigin": "course-starter",
+  "originalRepoUrl": "",
+  "originalCommit": "",
+  "pullRequestUrl": "",
+  "submissionTag": "",
+  "testStatus": "not-tested",
+  "notes": "React/Vite build output ต้องอยู่ใน publish/ ก่อนสร้าง Pages Hub",
+  "pageUrl": "https://ItsPitxh.github.io/engse203-student-labs-67543210061/labs/week-04/",
+  "sourceUrl": "https://github.com/ItsPitxh/engse203-student-labs-67543210061/tree/lab/week-04/labs/week-04/source",
+  "hasPublish": false,
+  "sourceEntries": 0
+}

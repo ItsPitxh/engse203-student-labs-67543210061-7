@@ -3,10 +3,10 @@
 | รายการ | ข้อมูล |
 |---|---|
 | รายวิชา | ENGSE203 การเขียนโปรแกรมสำหรับวิศวกรซอฟต์แวร์ |
-| รหัสนักศึกษา | STUDENT-ID |
-| ชื่อ-นามสกุล | ชื่อ-นามสกุล |
-| Section | SEC-X |
-| GitHub Username | GITHUB-USERNAME |
-| Repository | `engse203-student-labs-STUDENT-ID` |
-
-> ไฟล์นี้จะถูกปรับข้อมูลเมื่อรัน `npm run setup`
+| รหัสนักศึกษา | 67543210061 |
+| ชื่อ-นามสกุล | Pich Sintornswat |
+| Section | SEC2 |
+| GitHub Username | ItsPitxh |
+| Repository | `engse203-student-labs-67543210061` |
+| Mode | `new-course` |
+| Pages Hub | https://ItsPitxh.github.io/engse203-student-labs-67543210061/ |
