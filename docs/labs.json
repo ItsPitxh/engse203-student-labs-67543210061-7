@@ -32,13 +32,13 @@
     "sourceEntries": 9
   },
   {
-    "week": "week-02",
-    "title": "Developer Environment & GitHub Repository Setup",
-    "status": "ready",
+    "week": "week-03",
+    "title": "Responsive Web UI & Form Interaction",
+    "status": "submitted",
     "sourceOrigin": "migrated-repository",
     "originalRepoUrl": "https://github.com/ItsPitxh/engse203-lab03-67543210061-7",
     "originalCommit": "333e092",
-    "pullRequestUrl": "",
+    "pullRequestUrl": "https://github.com/ItsPitxh/engse203-student-labs-67543210061-7/commit/dcebb3729e46de64103c91974adfb2c1eba80148",
     "submissionTag": "lab-03-submission-v1",
     "testStatus": "pass",
     "notes": "LAB 3 สามารถทำได้ตาม manual guide 6 ข้อ",
@@ -49,18 +49,18 @@
   },
   {
     "week": "week-04",
-    "title": "React Campus Service Request",
-    "status": "draft",
-    "sourceOrigin": "course-starter",
-    "originalRepoUrl": "",
-    "originalCommit": "",
+    "title": "React Components, Props, State and Events",
+    "status": "ready",
+    "sourceOrigin": "migrated-repository",
+    "originalRepoUrl": "https://github.com/se-rmutl/engse203-lab/tree/main/labs/week-04-react-components-state",
+    "originalCommit": "333e092",
     "pullRequestUrl": "",
-    "submissionTag": "",
-    "testStatus": "not-tested",
-    "notes": "React/Vite build output ต้องอยู่ใน publish/ ก่อนสร้าง Pages Hub",
+    "submissionTag": "lab-04-submission-v1",
+    "testStatus": "pass",
+    "notes": "pre-lab04 submitted",
     "pageUrl": "https://ItsPitxh.github.io/engse203-student-labs-67543210061/labs/week-04/",
     "sourceUrl": "https://github.com/ItsPitxh/engse203-student-labs-67543210061/tree/lab/week-04/labs/week-04/source",
     "hasPublish": false,
-    "sourceEntries": 0
+    "sourceEntries": 12
   }
 ]
