@@ -1,10 +1,9 @@
 import { defineConfig } from "vite";
-
-
-const repositoryName = "engse203-lab02-67543210061-7";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: `./`,
+  plugins: [react()],
+  base: './',
   build: {
     outDir: "dist",
     emptyOutDir: true,
