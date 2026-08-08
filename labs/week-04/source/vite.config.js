@@ -3,7 +3,8 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  // MUST match the format from Section 9:
+  base: '/engse203-student-labs-<student-id>/labs/week-04/', 
   build: {
     outDir: "dist",
     emptyOutDir: true,
