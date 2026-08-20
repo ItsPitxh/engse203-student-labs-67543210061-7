@@ -1,12 +1,12 @@
 {
   "week": "week-05",
   "title": "React Routing and Data",
-  "status": "draft",
+  "status": "ready",
   "sourceOrigin": "course-starter",
   "originalRepoUrl": "",
   "originalCommit": "",
-  "pullRequestUrl": "",
+  "pullRequestUrl": "https://github.com/ItsPitxh/engse203-student-labs-67543210061-7/pull/12",
   "submissionTag": "",
-  "testStatus": "not-tested",
+  "testStatus": "pass",
   "notes": ""
 }
