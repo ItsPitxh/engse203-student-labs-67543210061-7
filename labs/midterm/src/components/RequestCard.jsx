@@ -18,6 +18,16 @@ function RequestCard({ request, onDeleteRequest, onAcknowledge }) {
       </div>
       <div className="request-card-actions">
         {/* TODO B3: เพิ่มปุ่ม "รับเรื่อง" ที่แสดงเฉพาะการ์ดสถานะ pending (เรียก onAcknowledge) */}
+        {request.status === 'pending' && (
+          <button
+            type="button"
+            className="button primary"
+            data-testid={`acknowledge-${request.id}`}
+            onClick={() => onAcknowledge(request.id)}
+          >
+            รับเรื่อง
+          </button>
+        )}
         <button
           className="button danger"
           type="button"
