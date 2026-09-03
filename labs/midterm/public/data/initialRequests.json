@@ -1,0 +1,7 @@
+[
+  { "id": "REQ-101", "requesterName": "วีระ ชาญชัย", "requestType": "แจ้งซ่อมครุภัณฑ์", "location": "ห้องเรียน 402", "details": "โปรเจกเตอร์ในห้องเรียนภาพไม่ขึ้น", "priority": "urgent", "status": "in-progress" },
+  { "id": "REQ-102", "requesterName": "จินตนา ศรีสุข", "requestType": "ขอใช้ห้องประชุม", "location": "อาคารสำนักงาน", "details": "ขอใช้ห้องประชุมจัดสัมมนานักศึกษา", "priority": "normal", "status": "pending" },
+  { "id": "REQ-103", "requesterName": "อนุชา พูนผล", "requestType": "บริการเครือข่าย", "location": "ห้องปฏิบัติการ 305", "details": "อินเทอร์เน็ตในห้องปฏิบัติการช้ามาก", "priority": "normal", "status": "completed" },
+  { "id": "REQ-104", "requesterName": "สุนิสา ทองดี", "requestType": "แจ้งซ่อมครุภัณฑ์", "location": "ลานจอดรถ", "details": "ไฟส่องสว่างลานจอดรถดับหลายจุด", "priority": "normal", "status": "completed" },
+  { "id": "REQ-105", "requesterName": "ธนากร เพิ่มพูน", "requestType": "ขอใช้อุปกรณ์", "location": "ห้องสมุด", "details": "ขอยืมไมโครโฟนสำหรับงานกิจกรรม", "priority": "urgent", "status": "pending" }
+]

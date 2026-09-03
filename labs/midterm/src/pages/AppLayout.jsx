@@ -6,10 +6,6 @@ function AppLayout() {
     <div className="app-shell" data-testid="app-layout">
       <AppHeader />
       <main className="container page-content" id="main-content">
-        {/* 
-          <Outlet /> is ones of React-router's component to a "dynamic placeholder" for nested child
-          By using a method property called index in <Route />  
-        */}
         <Outlet />
       </main>
       <footer className="site-footer"><div className="container">LAB environment · ไม่ใช้ข้อมูลส่วนบุคคลจริง</div></footer>

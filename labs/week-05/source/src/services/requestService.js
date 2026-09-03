@@ -45,18 +45,33 @@ async function waitForLabDelay() {
  * สิ่งที่ต้องทำ
  *   1. หา base URL จาก import.meta.env?.BASE_URL โดยมี ?. ด้วย
  *      (ถ้าไม่ใส่ ?. checker จะเรียกฟังก์ชันนี้นอก Vite ไม่ได้)
- *   2. fetch ไปที่ `${baseUrl}data/initialRequests.json`
+ *   2. fetch ไปที่ `${baseUrl}data/initialRequests.json`PROGRAM Water_Packaging_Factory
  *   3. ตรวจ response.ok ก่อนเสมอ ถ้าไม่ ok ให้ throw ข้อความที่ผู้ใช้เข้าใจได้
  *   4. แปลงเป็น JSON แล้วคืนสำเนาด้วย structuredClone()
  *
  * ทำไมต้อง structuredClone: เพื่อให้ผู้เรียกได้ข้อมูลชุดของตัวเอง
  * ถ้าคืนตัวเดิมไปตรง ๆ แล้วมีคนแก้ ข้อมูลต้นทางจะเปลี่ยนตามโดยไม่ตั้งใจ
  */
+
+
+/* 
+  this function pulls and combines Request id from the BASE_URL with the data initialRequests.json file
+  "async" is to pause the execution inside the function until the "await" promise is resolved
+ */ 
 async function fetchSeedRequests() {
-  // throw new Error("TODO 5A-1: fetchSeedRequests");
-  const baseUrl = import.meta.env?.BASE_URL ?? "/";
+  const baseUrl = import.meta.env?.BASE_URL ?? "/"; 
+  /* 
+    this import.meta.env expression is an object describing the app.
+    import.meta.env.BASE_URL 
+    but if it doesn't exists, the app will crash (probably) 
+    so "?" is to return undefined if the object
+  */ 
+  // Line Below is storing the the expression above by waiting until fetch() expression is return the data from inittialRequests.json
   const response = await fetch(`${baseUrl}data/initialRequests.json`);
+  // otherwise, if the expression above is not "ok" return this error.
   if (!response.ok) throw new Error("ไม่สามารถโหลดข้อมูลตัวอย่างได้");
+  
+  // line below is returning what ever is
   return structuredClone(await response.json());
 }
 
@@ -69,14 +84,18 @@ async function fetchSeedRequests() {
  * ส่วน scenario error และ empty เขียนไว้ให้แล้ว ใช้ทดสอบ UI
  */
 export async function getRequests(options = {}) {
+  //line below ensures that the page(?) is load/return
   await waitForLabDelay();
 
+  
   if (options.scenario === "error") {
     throw new Error("LAB scenario: จำลองการโหลดข้อมูลไม่สำเร็จ");
   }
   if (options.scenario === "empty") {
     return [];
   }
+
+  //returns if the options is not "error" or empty then pass the return onto loadNormalRequests()
   return loadNormalRequests(options.onRecovery);
 
   // TODO 5A-2: return fetchSeedRequests();
@@ -107,7 +126,10 @@ function validateRequestInput(input) {
  * ถ้าไม่พบ ให้คืน null — ห้าม throw
  * เพราะ "หาไม่เจอ" ไม่ใช่ความผิดพลาดของระบบ
  */
+
+//this function gets the request by id by sending and ID through 
 export async function getRequestById(requestId) {
+  
   const requests = await getRequests();
   return requests.find((request) => request.id === requestId) ?? null;
   // throw new Error("TODO 5A-3: getRequestById");
@@ -125,9 +147,12 @@ export async function getRequestById(requestId) {
  *   4. ถ้า status เป็น 'invalid' ให้เรียก onRecovery?.(ข้อความ) เพื่อให้หน้าจอแจ้งผู้ใช้
  *   5. คืนข้อมูล seed
  */
+
+/*
+  LoadNormalRequests() returns data from the storage 
+*/
 async function loadNormalRequests(onRecovery) {
   const stored = readStoredRequests();
-  // return fetchSeedRequests();
   if (stored.status === "valid") return stored.requests;
   const seedRequests = await fetchSeedRequests();
   writeStoredRequests(seedRequests);
