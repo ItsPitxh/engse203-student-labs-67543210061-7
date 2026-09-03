@@ -69,10 +69,20 @@ function DashboardPage() {
     [requests],
   );
 
-  const filteredRequests =
-    statusFilter === "all"
-      ? requests
-      : requests.filter((request) => request.status === statusFilter);
+  const filteredRequests = requests.filter((request) => {
+    // 1. Status Filter match
+    const matchesStatus =
+      statusFilter === "all" || request.status === statusFilter;
+
+    // 2. Search Query match (type OR location, case-insensitive)
+    const query = searchTerm.trim().toLowerCase();
+    const matchesSearch =
+      query === "" ||
+      request.requestType.toLowerCase().includes(query) ||
+      request.location.toLowerCase().includes(query);
+
+    return matchesStatus && matchesSearch;
+  });
 
   function handleRetry() {
     if (scenario) setSearchParams({});
