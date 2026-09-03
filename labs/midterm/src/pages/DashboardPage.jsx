@@ -79,8 +79,8 @@ function DashboardPage() {
     const matchesSearch =
       query === "" ||
       request.requestType.toLowerCase().includes(query) ||
-      request.location.toLowerCase().includes(query);
-
+      request.location.toLowerCase().includes(query) ||
+      request.status.toLowerCase().includes(query);
     return matchesStatus && matchesSearch;
   });
 
