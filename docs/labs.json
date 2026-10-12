@@ -29,7 +29,7 @@
     "pageUrl": "https://ItsPitxh.github.io/engse203-student-labs-67543210061/labs/week-02/",
     "sourceUrl": "https://github.com/ItsPitxh/engse203-student-labs-67543210061/tree/lab/week-02/labs/week-02/source",
     "hasPublish": true,
-    "sourceEntries": 9
+    "sourceEntries": 8
   },
   {
     "week": "week-03",
@@ -61,22 +61,38 @@
     "pageUrl": "https://ItsPitxh.github.io/engse203-student-labs-67543210061/labs/week-04/",
     "sourceUrl": "https://github.com/ItsPitxh/engse203-student-labs-67543210061/tree/lab/week-04/labs/week-04/source",
     "hasPublish": true,
-    "sourceEntries": 13
+    "sourceEntries": 11
   },
   {
     "week": "week-05",
     "title": "React Routing and Data",
-    "status": "draft",
+    "status": "ready",
     "sourceOrigin": "course-starter",
     "originalRepoUrl": "",
     "originalCommit": "",
-    "pullRequestUrl": "",
+    "pullRequestUrl": "https://github.com/ItsPitxh/engse203-student-labs-67543210061-7/pull/12",
     "submissionTag": "",
-    "testStatus": "not-tested",
+    "testStatus": "pass",
     "notes": "",
     "pageUrl": "https://ItsPitxh.github.io/engse203-student-labs-67543210061/labs/week-05/",
     "sourceUrl": "https://github.com/ItsPitxh/engse203-student-labs-67543210061/tree/lab/week-05/labs/week-05/source",
     "hasPublish": true,
-    "sourceEntries": 12
+    "sourceEntries": 10
+  },
+  {
+    "week": "week-06",
+    "title": "express api foundation",
+    "status": "ready",
+    "sourceOrigin": "course-starter",
+    "originalRepoUrl": "",
+    "originalCommit": "",
+    "pullRequestUrl": "https://github.com/ItsPitxh/engse203-student-labs-67543210061-7/pull/13",
+    "submissionTag": "lab-06-submission-v1",
+    "testStatus": "pass",
+    "notes": "",
+    "pageUrl": "https://ItsPitxh.github.io/engse203-student-labs-67543210061/labs/week-06/",
+    "sourceUrl": "https://github.com/ItsPitxh/engse203-student-labs-67543210061/tree/lab/week-06/labs/week-06/source",
+    "hasPublish": false,
+    "sourceEntries": 9
   }
 ]
