@@ -1,0 +1,7 @@
+node_modules/
+.env
+.DS_Store
+
+# ฐานข้อมูลทดสอบเท่านั้น — ไม่ commit
+# campus.db ต้อง commit ตอนส่งงาน (ดูคู่มือ)
+data/test.db
