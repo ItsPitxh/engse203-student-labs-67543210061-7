@@ -1,12 +1,12 @@
 {
   "week": "week-12",
   "title": "Testing + Debugging",
-  "status": "draft",
+  "status": "ready",
   "sourceOrigin": "course-starter",
   "originalRepoUrl": "",
-  "originalCommit": "",
+  "originalCommit": "a8454bcd76ff88e90a68445865e94e0ebeefb47f",
   "pullRequestUrl": "",
-  "submissionTag": "",
-  "testStatus": "not-tested",
+  "submissionTag": "lab-12-submission-v1",
+  "testStatus": "pass",
   "notes": ""
 }
