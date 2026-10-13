@@ -1,12 +1,12 @@
 {
   "week": "week-13",
   "title": "Quality & Security (A5)",
-  "status": "draft",
+  "status": "ready",
   "sourceOrigin": "course-starter",
   "originalRepoUrl": "",
-  "originalCommit": "",
+  "originalCommit": "1d20d76b601791ac0b161822d28452973f90b75f",
   "pullRequestUrl": "",
-  "submissionTag": "",
-  "testStatus": "not-tested",
+  "submissionTag": "lab-13-submission-v1",
+  "testStatus": "pass",
   "notes": ""
 }
