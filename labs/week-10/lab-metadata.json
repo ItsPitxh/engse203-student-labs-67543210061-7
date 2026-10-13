@@ -1,12 +1,12 @@
 {
   "week": "week-10",
   "title": "Node + Database (SQLite)",
-  "status": "draft",
+  "status": "ready",
   "sourceOrigin": "course-starter",
   "originalRepoUrl": "",
   "originalCommit": "",
   "pullRequestUrl": "",
   "submissionTag": "",
-  "testStatus": "not-tested",
+  "testStatus": "pass",
   "notes": ""
 }
