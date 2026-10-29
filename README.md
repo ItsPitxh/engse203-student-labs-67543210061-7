@@ -43,7 +43,7 @@ npm run verify
 ## Pages URL
 
 ```text
-https://<github-username>.github.io/engse203-student-labs-<student-id>/
+https://ItsPitxh.github.io/engse203-student-labs-67543210061-7/
 ```
 
 ## LAB ที่เตรียมไว้
